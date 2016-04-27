@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=NetBeans PHP IDE
+Icon=netbeans
+Exec=/usr/share/netbeans-php/bin/netbeans
+Comment=A powerful PHP development environmen
+Categories=Development;
+Terminal=false
+StartupNotify=true
