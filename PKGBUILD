@@ -1,6 +1,6 @@
 pkgname=netbeans-php
-pkgver=8.1
-_pkgver=201511021428
+pkgver=8.2
+_pkgver=201609300101
 pkgrel=1
 pkgdesc="A dedicated PHP coding environment and complete integration with web standards"
 arch=('x86_64')
@@ -9,8 +9,8 @@ category=Development
 screenshot=http://i.imgur.com/SFUoLTK.png
 license=('GPL2')
 depends=('java-runtime')
-source=("http://bits.netbeans.org/netbeans/${pkgver}/community/zip/netbeans-${pkgver}-${_pkgver}-php.zip" "netbeans-php.desktop")
-md5sums=('f7efc4f63ba198f94e32853240a4ac7b'
+source=("http://download.netbeans.org/netbeans/${pkgver}/final/zip/netbeans-${pkgver}-${_pkgver}-php.zip" "netbeans-php.desktop")
+md5sums=('3fa75a422e77d65d9bc7148b01f81c50'
          'd78d84da8587e80391d60bc984460d56')
 
 options=(!strip)
